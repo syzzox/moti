@@ -1,4 +1,5 @@
 web1: #component type & number
   name: moti            #component settings
   shared_writable_dirs:
-    - var/www/app/tmp
+    - /var/www/app/tmp
+    
