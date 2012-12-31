@@ -21,9 +21,6 @@ endif;
 App::uses('Debugger', 'Utility');
 ?>
 
-<?php
-	echo $this->Html->image('banner.png', array('alt' => 'Moti'));
-?>
 
 <h1>MOTI - Feito utilizando CakePHP</h1>
 

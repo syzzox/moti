@@ -4,3 +4,6 @@
 2012-12-18 15:03:52 Error: [MissingControllerException] Controller class CssController could not be found.
 #0 /Applications/XAMPP/xamppfiles/htdocs/moti/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2012-12-30 19:51:28 Error: [MissingControllerException] Controller class OndeController could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/moti/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

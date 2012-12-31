@@ -21,6 +21,7 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
+
 	<?php echo $this->Html->charset(); ?>
 	<title>
 		<?php /* echo $cakeDescription */ ?>
@@ -37,13 +38,20 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
 		echo $this->fetch('css');
 		echo $this->fetch('script');
 	?>
+
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js" type="text/javascript"></script>
+
+	<?php echo $this->fetch('head'); ?>
+
 </head>
 <body>
+	<?php 
+		echo $this->element('analytics');
+	?>
+
 	<div id="container" class="container_12">
 		<div id="header">
-			<h1><?php 
-			//echo $this->Html->link($cakeDescription, 'http://cakephp.org');
-			?></h1>
+			<?php echo $this->Html->image('banner.png', array('alt' => 'Moti')); ?>
 		</div>
 		<div id="content">
 

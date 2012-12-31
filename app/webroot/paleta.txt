@@ -1,0 +1,5 @@
+vermelho f64557
+laranja f9a300
+branco eaf0df
+turquesa 3ad8da
+verde 22b0c0
