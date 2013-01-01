@@ -16,6 +16,18 @@
  * @license       MIT License (http://www.opensource.org/licenses/mit-license.php)
  */
 
+ @font-face {
+    font-family: 'YanoneKaffeesatzRegular';
+    src: url('../fonts/YanoneKaffeesatz-Regular-webfont.eot');
+    src: url('../fonts/YanoneKaffeesatz-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/YanoneKaffeesatz-Regular-webfont.woff') format('woff'),
+         url('../fonts/YanoneKaffeesatz-Regular-webfont.ttf') format('truetype'),
+         url('../fonts/YanoneKaffeesatz-Regular-webfont.svg#YanoneKaffeesatzRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 * {
 	margin:0;
 	padding:0;
@@ -24,18 +36,19 @@
 /** General Style Info **/
 body {
 	background: #eaf0df;
-	color: #fff;
+	color: #eaf0df;
 	font-family:'lucida grande',verdana,helvetica,arial,sans-serif;
-	font-size:90%;
+	/*font-family: 'YanoneKaffeesatzRegular', helvetica, arial, sans-serif;*/
+	font-size: 15px;
 	margin: 0;
 }
 a {
-	color: #003d4c;
+	color: #eaf0df;
 	text-decoration: underline;
 	font-weight: bold;
 }
 a:hover {
-	color: #367889;
+	color: #3ad8da;
 	text-decoration:none;
 }
 a img {
@@ -43,23 +56,26 @@ a img {
 }
 h1, h2, h3, h4 {
 	font-weight: normal;
-	margin-bottom:0.5em;
+	margin:0.5em;
+	text-shadow: 1px 1px 1px #000;
+	font-family: 'YanoneKaffeesatzRegular', helvetica, arial, sans-serif;
 }
 h1 {
 	/*background:#fff;*/
-	color: #003d4c;
-	font-size: 100%;
+	color: #f64557;
+	font-size: 190%;
+	padding-left: 50px;
 }
 h2 {
 	/*background:#fff;*/
 	color: #e32;
-	font-family:'Gill Sans','lucida grande', helvetica, arial, sans-serif;
-	font-size: 190%;
+	/*font-family:'Gill Sans','lucida grande', helvetica, arial, sans-serif;*/
+	font-size: 170%;
 }
 h3 {
 	color: #2c6877;
-	font-family:'Gill Sans','lucida grande', helvetica, arial, sans-serif;
-	font-size: 165%;
+	/*font-family:'Gill Sans','lucida grande', helvetica, arial, sans-serif;*/
+	font-size: 140%;
 }
 h4 {
 	color: #993;
@@ -98,9 +114,9 @@ p {
 	text-decoration: underline;
 }
 #content{
-	background: #eaf0df;
+	background: #22B0C0;
 	clear: both;
-	color: #333;
+	/*color: #333;*/
 	/*padding: 10px 20px 40px 20px;*/
 	padding: 10px 0;
 	overflow: auto;
@@ -110,6 +126,34 @@ p {
 	padding: 6px 10px;
 	text-align: right;
 }
+
+/** menu **/
+
+.menu{
+	width: 240px;
+	float: left;
+	padding: 40px 0 ;
+}
+
+#menu1 {
+	background: #f64557;
+}
+#menu2 {
+	background: #f9a300;
+}
+#menu3 {
+	background: #3ad8da;
+}
+#menu4 {
+	background: #22b0c0;
+}
+
+.menu_link {
+	margin-left: 20px;
+	font-family: 'YanoneKaffeesatzRegular', helvetica, arial, sans-serif;
+	font-size: 200%;
+}
+
 
 /** containers **/
 div.form,
@@ -128,6 +172,11 @@ div.actions {
 div.actions h3 {
 	padding-top:0;
 	color:#777;
+}
+
+/** mapa **/
+#mapa {
+	margin: 20px 0;
 }
 
 
@@ -313,7 +362,7 @@ label {
 input, textarea {
 	clear: both;
 	font-size: 140%;
-	font-family: "frutiger linotype", "lucida grande", "verdana", sans-serif;
+	/*font-family: "frutiger linotype", "lucida grande", "verdana", sans-serif;*/
 	padding: 1%;
 	width:98%;
 }

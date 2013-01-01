@@ -26,7 +26,7 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
 	<title>
 		<?php /* echo $cakeDescription */ ?>
 		<?php /* echo $title_for_layout; */ ?>
-		Assando Moti
+		MOTI
 	</title>
 	<?php
 		echo $this->Html->meta('icon');
@@ -50,11 +50,15 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
 	?>
 
 	<div id="container" class="container_12">
+		
 		<div id="header">
-			<?php echo $this->Html->image('banner.png', array('alt' => 'Moti')); ?>
+			<?php echo $this->Html->image('banner2.png', array('alt' => 'Moti', 'url' => '/')); ?>
 		</div>
+		
 		<div id="content">
-
+		<?php 
+		echo $this->element('menu');
+		?>
 			<?php echo $this->Session->flash(); ?>
 
 			<?php echo $this->fetch('content'); ?>

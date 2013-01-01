@@ -7,3 +7,51 @@
 2012-12-30 19:51:28 Error: [MissingControllerException] Controller class OndeController could not be found.
 #0 /Applications/XAMPP/xamppfiles/htdocs/moti/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2013-01-01 01:30:54 Error: Fatal Error (4): syntax error, unexpected ')', expecting ',' or ';' in [/Applications/XAMPP/xamppfiles/htdocs/moti/app/View/Elements/menu.ctp, line 3]
+2013-01-01 01:30:54 Error: [FatalErrorException] syntax error, unexpected ')', expecting ',' or ';'
+#0 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 3)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 3, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 3, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-01-01 01:31:00 Error: Fatal Error (4): syntax error, unexpected ')', expecting ',' or ';' in [/Applications/XAMPP/xamppfiles/htdocs/moti/app/View/Elements/menu.ctp, line 3]
+2013-01-01 01:31:00 Error: [FatalErrorException] syntax error, unexpected ')', expecting ',' or ';'
+#0 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 3)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 3, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 3, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-01-01 01:31:02 Error: Fatal Error (4): syntax error, unexpected ')', expecting ',' or ';' in [/Applications/XAMPP/xamppfiles/htdocs/moti/app/View/Elements/menu.ctp, line 3]
+2013-01-01 01:31:02 Error: [FatalErrorException] syntax error, unexpected ')', expecting ',' or ';'
+#0 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 3)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 3, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 3, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-01-01 01:31:02 Error: Fatal Error (4): syntax error, unexpected ')', expecting ',' or ';' in [/Applications/XAMPP/xamppfiles/htdocs/moti/app/View/Elements/menu.ctp, line 3]
+2013-01-01 01:31:02 Error: [FatalErrorException] syntax error, unexpected ')', expecting ',' or ';'
+#0 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 3)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 3, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 3, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-01-01 01:31:03 Error: Fatal Error (4): syntax error, unexpected ')', expecting ',' or ';' in [/Applications/XAMPP/xamppfiles/htdocs/moti/app/View/Elements/menu.ctp, line 3]
+2013-01-01 01:31:03 Error: [FatalErrorException] syntax error, unexpected ')', expecting ',' or ';'
+#0 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 3)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 3, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 3, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-01-01 01:31:05 Error: Fatal Error (4): syntax error, unexpected ')', expecting ',' or ';' in [/Applications/XAMPP/xamppfiles/htdocs/moti/app/View/Elements/menu.ctp, line 3]
+2013-01-01 01:31:05 Error: [FatalErrorException] syntax error, unexpected ')', expecting ',' or ';'
+#0 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 3)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 3, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 3, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}

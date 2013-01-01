@@ -22,6 +22,13 @@ App::uses('Debugger', 'Utility');
 ?>
 
 
-<h1>MOTI - Feito utilizando CakePHP</h1>
+<div id="main-text" class="grid_12">
+	<h1>Mapping Out the Town Interactively</h1>
 
+	Evento de Vídeo Mapping e Mídias Interativas em São Paulo 
 
+	<div id="mapa" class="grid_10 prefix_1 suffix_1 omega alpha">
+		<iframe width="780" height="439" src="http://www.youtube.com/embed/V4hl633R-TI?rel=0" frameborder="0" allowfullscreen></iframe>
+	</div>
+
+</div>
