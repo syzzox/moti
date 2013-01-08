@@ -57,12 +57,17 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
 		
 		<div id="content">
 		<?php 
-		echo $this->element('menu');
+			echo $this->element('menu');
 		?>
-			<?php echo $this->Session->flash(); ?>
+		
+		<?php echo $this->Session->flash(); ?>
 
-			<?php echo $this->fetch('content'); ?>
+		<?php echo $this->fetch('content'); ?>
+		
 		</div>
+
+
+
 		<div id="footer">
 			<?php echo $this->Html->link(
 					$this->Html->image('cake.power.gif', array('alt' => $cakeDescription, 'border' => '0')),
