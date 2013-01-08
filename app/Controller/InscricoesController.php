@@ -7,11 +7,11 @@ class InscricoesController extends AppController {
     }
 
     public function inscrever() {
-    	if ($this->request->is('inscricao')) {
+    	if ($this->request->isPost()) {
     		$this->Inscricao->create();
             if ($this->Inscricao->save($this->request->data)) {
                 $this->Session->setFlash('Inscrição realizada com sucesso.');
-                $this->redirect(array('controller' => 'pages', 'action' => 'display', 'home'));
+                $this->redirect(array('controller' => 'pages', 'action' => 'display', 'obrigado'));
             } else {
                 $this->Session->setFlash('Não foi possível realizar a inscrição.');
             }

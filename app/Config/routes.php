@@ -30,9 +30,10 @@
  * ...and connect the rest of 'Pages' controller's urls.
  */
 	Router::connect('/paginas/*', array('controller' => 'pages', 'action' => 'display'));
-
 	Router::connect('/onde', array('controller' => 'pages', 'action' => 'display', 'onde'));
 	Router::connect('/sobre', array('controller' => 'pages', 'action' => 'display', 'sobre'));
+	Router::connect('/inscricao', array('controller' => 'inscricoes', 'action' => 'inscrever'));
+	Router::connect('/obrigado', array('controller' => 'pages', 'action' => 'display', 'obrigado'));
 
 /**
  * Load all plugin routes.  See the CakePlugin documentation on

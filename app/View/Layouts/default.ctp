@@ -60,7 +60,9 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
 			echo $this->element('menu');
 		?>
 		
-		<?php echo $this->Session->flash(); ?>
+		<div class="grid_12">
+			<?php echo $this->Session->flash(); ?>
+		</div>
 
 		<?php echo $this->fetch('content'); ?>
 		

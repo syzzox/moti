@@ -14,10 +14,9 @@
 			echo $this->Html->link('Onde', '/onde', array('class' => 'menu_link'));
 		?>
 	</div>
-	<?php
-	/*
 	<div class="menu" id="menu4">
+		<?php 
+			echo $this->Html->link('Inscrição', '/inscricao', array('class' => 'menu_link'));
+		?>
 	</div>
-	*/
-	?>
 </div>
