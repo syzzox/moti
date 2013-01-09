@@ -130,7 +130,7 @@ p {
 /** menu **/
 
 .menu{
-	width: 240px;
+	width: 230px;
 	float: left;
 	padding: 40px 0 ;
 }
@@ -145,7 +145,7 @@ p {
 	background: #3ad8da;
 }
 #menu4 {
-	background: #22b0c0;
+	background: #f64557;
 }
 
 .menu_link {
@@ -154,6 +154,26 @@ p {
 	font-size: 200%;
 }
 
+/** form inscricao **/
+
+.insc{
+margin:0 auto;
+width:800px;
+padding:14px;
+}
+
+.inscricao label {
+	display:block;
+	text-align:right;
+	width:140px;
+	float:left;
+	margin-top: 10px;
+}
+
+.inscricao input {
+	width:200px;
+	margin:2px 0 20px 10px;
+}
 
 /** containers **/
 div.form,

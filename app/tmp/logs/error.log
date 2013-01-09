@@ -92,3 +92,11 @@
 2013-01-08 19:34:32 Error: [MissingControllerException] Controller class InscricaoController could not be found.
 #0 C:\xampp\htdocs\moti\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2013-01-09 20:34:49 Error: Fatal Error (4): syntax error, unexpected 'array' (T_ARRAY) in [C:\xampp\htdocs\moti\app\View\Inscricoes\inscrever.ctp, line 4]
+2013-01-09 20:34:49 Error: [FatalErrorException] syntax error, unexpected 'array' (T_ARRAY)
+#0 C:\xampp\htdocs\moti\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 4)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 4, Array)
+#2 C:\xampp\htdocs\moti\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 4, Array)
+#3 C:\xampp\htdocs\moti\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
