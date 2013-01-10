@@ -11,7 +11,7 @@ class InscricoesController extends AppController {
     		$this->Inscricao->create();
             if ($this->Inscricao->save($this->request->data)) {
                 $this->Session->setFlash('Inscrição realizada com sucesso.');
-                $this->redirect(array('controller' => 'pages', 'action' => 'display', 'obrigado'));
+                $this->redirect('/obrigado');
             } else {
                 $this->Session->setFlash('Não foi possível realizar a inscrição.');
             }
