@@ -100,3 +100,17 @@
 #3 C:\xampp\htdocs\moti\lib\Cake\Core\App.php(899): App::_checkFatalError()
 #4 [internal function]: App::shutdown()
 #5 {main}
+2013-01-13 19:15:55 Error: [MissingTableException] Table inscricoes for model Inscricao was not found in datasource default.
+#0 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Model/Model.php(3192): Model->setSource('inscricoes')
+#1 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Model/Model.php(1305): Model->getDataSource()
+#2 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/View/Helper/FormHelper.php(197): Model->schema()
+#3 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/View/Helper/FormHelper.php(443): FormHelper->_introspectModel('Inscricao', 'fields')
+#4 /Applications/XAMPP/xamppfiles/htdocs/moti/app/View/Inscricoes/inscrever.ctp(3): FormHelper->create('Inscricao', Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/View/View.php(923): include('/Applications/X...')
+#6 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/View/View.php(886): View->_evaluate('/Applications/X...', Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/View/View.php(476): View->_render('/Applications/X...')
+#8 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Controller/Controller.php(956): View->render(NULL, NULL)
+#9 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#10 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(InscricoesController), Object(CakeRequest), Object(CakeResponse))
+#11 /Applications/XAMPP/xamppfiles/htdocs/moti/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
