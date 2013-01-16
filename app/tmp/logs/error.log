@@ -114,3 +114,56 @@
 #10 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(InscricoesController), Object(CakeRequest), Object(CakeResponse))
 #11 /Applications/XAMPP/xamppfiles/htdocs/moti/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #12 {main}
+2013-01-16 16:50:45 Error: [MissingControllerException] Controller class PalestranteController could not be found.
+#0 C:\xampp\htdocs\moti\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-01-16 17:02:11 Error: [MissingControllerException] Controller class PalestranteController could not be found.
+#0 C:\xampp\htdocs\moti\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-01-16 17:53:31 Error: [MissingViewException] View file "C:\xampp\htdocs\moti\app\View\Palestras\index.ctp" is missing.
+#0 C:\xampp\htdocs\moti\lib\Cake\View\View.php(473): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\moti\lib\Cake\Controller\Controller.php(956): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\moti\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#3 C:\xampp\htdocs\moti\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PalestrasController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\moti\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-16 18:06:32 Error: Fatal Error (4): syntax error, unexpected end of file in [C:\xampp\htdocs\moti\app\Controller\PalestrasController.php, line 24]
+2013-01-16 18:06:32 Error: [FatalErrorException] syntax error, unexpected end of file
+#0 C:\xampp\htdocs\moti\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 24)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 24, Array)
+#2 C:\xampp\htdocs\moti\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 24, Array)
+#3 C:\xampp\htdocs\moti\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-01-16 18:11:35 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\xampp\htdocs\moti\app\Controller\PalestrantesController.php, line 5]
+2013-01-16 18:11:35 Error: [FatalErrorException] Call to a member function find() on a non-object
+#0 C:\xampp\htdocs\moti\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 5)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 5, Array)
+#2 C:\xampp\htdocs\moti\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 5, Array)
+#3 C:\xampp\htdocs\moti\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-01-16 18:11:49 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\xampp\htdocs\moti\app\Controller\PalestrantesController.php, line 5]
+2013-01-16 18:11:49 Error: [FatalErrorException] Call to a member function find() on a non-object
+#0 C:\xampp\htdocs\moti\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 5)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 5, Array)
+#2 C:\xampp\htdocs\moti\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 5, Array)
+#3 C:\xampp\htdocs\moti\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-01-16 18:12:27 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\xampp\htdocs\moti\app\Controller\PalestrantesController.php, line 5]
+2013-01-16 18:12:27 Error: [FatalErrorException] Call to a member function find() on a non-object
+#0 C:\xampp\htdocs\moti\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 5)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 5, Array)
+#2 C:\xampp\htdocs\moti\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 5, Array)
+#3 C:\xampp\htdocs\moti\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-01-16 18:14:12 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\xampp\htdocs\moti\app\Controller\PalestrantesController.php, line 5]
+2013-01-16 18:14:12 Error: [FatalErrorException] Call to a member function find() on a non-object
+#0 C:\xampp\htdocs\moti\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 5)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 5, Array)
+#2 C:\xampp\htdocs\moti\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 5, Array)
+#3 C:\xampp\htdocs\moti\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
