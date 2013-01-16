@@ -1,2 +1,2 @@
-1358361208
-a:1:{s:4:"name";a:2:{s:32:"80090918d37778e05338595f63f0d3ca";s:6:"`moti`";s:32:"be460b37cb6d822161e06ed5e2ea2ac0";s:14:"`palestrantes`";}}
+1358364770
+a:2:{s:4:"name";a:12:{s:32:"80090918d37778e05338595f63f0d3ca";s:6:"`moti`";s:32:"9041fe61b1b56145bf353ac50b6ea4b6";s:11:"`palestras`";s:32:"47eb7bb09414c64f779510914712b6ee";s:7:"`count`";s:32:"a880dcf8778199b1037e579fbe440e4a";s:17:"`Palestra`.`nome`";s:32:"8c4ea1fe3654c2a182997421188fde04";s:10:"`Palestra`";s:32:"6570e63ab8919e1b6e852dddcdadda5f";s:6:"`nome`";s:32:"bbbc98ef0d32351411db1afa36443dc2";s:11:"`descricao`";s:32:"2e54c9c66a2ee16264d111f1715d16d6";s:8:"`inicio`";s:32:"d33e63d1b30145ec3c4e47d120a56024";s:5:"`fim`";s:32:"fdb0fafe2029704b1367ad3fffd0e0e5";s:16:"`palestrante_id`";s:32:"0e144ddc4a313e9dc986da1d0dd01b10";s:9:"`updated`";s:32:"d20e7bceeb0135a07432718f0d5096d7";s:9:"`created`";}s:6:"fields";a:1:{s:32:"e94de34bebeea02c1e906c5506fd0034";a:1:{i:0;s:19:"COUNT(*) AS `count`";}}}

@@ -8,8 +8,19 @@
 		public $displayField = 'nome';
 
 		public $validate = array(
-        	'nome' => 'required',
-        	'nome' = 'isUnique',
-        	'descricao' => 'required'
-	    );
+        	'nome' => array( 
+        		'requerido' => array('rule' => 'notEmpty'),
+        		'unico' => array('rule' => 'isUnique')
+        		),
+        	'descricao' => array( 
+        		'requerido' => array(
+        			'rule' => 'notEmpty'
+        			)
+        		),
+        	'url' => array( 
+        		'url' => array(
+        			'rule' => 'url'
+        			)
+        		)
+	       );
 	}
