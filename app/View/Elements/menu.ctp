@@ -21,12 +21,12 @@
 	</div>
 	<div class="menu" id="menu2">
 		<?php 
-			echo $this->Html->link('Inscrição', '/inscricao', array('class' => 'menu_link'));
+			echo $this->Html->link('Palestras', '/palestras', array('class' => 'menu_link'));
 		?>
 	</div>
 	<div class="menu" id="menu3">
 		<?php 
-			echo $this->Html->link('Inscrição', '/inscricao', array('class' => 'menu_link'));
+			echo $this->Html->link('Palestrantes', '/palestrantes', array('class' => 'menu_link'));
 		?>
 	</div>
 
