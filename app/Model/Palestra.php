@@ -6,4 +6,10 @@
 		public $order = array('inicio' => 'ASC');
 		public $cacheQueries = true;
 		public $displayField = 'nome';
+
+		public $validate = array(
+        	'nome' => 'required',
+        	'nome' = 'isUnique',
+        	'descricao' => 'required'
+	    );
 	}

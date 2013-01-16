@@ -1,4 +1,4 @@
-<h1>Palestra</h1>
+<h1>Palestras</h1>
 <table>
     <tr>
         <th>Nome</th>

@@ -167,3 +167,11 @@
 #3 C:\xampp\htdocs\moti\lib\Cake\Core\App.php(899): App::_checkFatalError()
 #4 [internal function]: App::shutdown()
 #5 {main}
+2013-01-16 19:28:11 Error: Fatal Error (4): syntax error, unexpected ''telefone'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in [C:\xampp\htdocs\moti\app\Model\Inscricao.php, line 11]
+2013-01-16 19:28:11 Error: [FatalErrorException] syntax error, unexpected ''telefone'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+#0 C:\xampp\htdocs\moti\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 11)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 11, Array)
+#2 C:\xampp\htdocs\moti\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 11, Array)
+#3 C:\xampp\htdocs\moti\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
