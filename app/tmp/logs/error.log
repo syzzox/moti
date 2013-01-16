@@ -183,3 +183,57 @@
 #3 C:\xampp\htdocs\moti\lib\Cake\Core\App.php(899): App::_checkFatalError()
 #4 [internal function]: App::shutdown()
 #5 {main}
+2013-01-16 21:34:30 Error: [MissingActionException] Action PalestrantesController::joao-silva() could not be found.
+#0 C:\xampp\htdocs\moti\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\moti\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PalestrantesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\moti\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-01-16 21:34:41 Error: [NotFoundException] Palestrante invalido
+#0 [internal function]: PalestrantesController->view()
+#1 C:\xampp\htdocs\moti\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(PalestrantesController), Array)
+#2 C:\xampp\htdocs\moti\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\moti\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PalestrantesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\moti\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-16 21:36:16 Error: [NotFoundException] Palestrante invalido
+#0 [internal function]: PalestrantesController->view()
+#1 C:\xampp\htdocs\moti\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(PalestrantesController), Array)
+#2 C:\xampp\htdocs\moti\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\moti\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PalestrantesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\moti\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-16 21:39:59 Error: [NotFoundException] Palestrante invalido
+#0 [internal function]: PalestrantesController->view()
+#1 C:\xampp\htdocs\moti\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(PalestrantesController), Array)
+#2 C:\xampp\htdocs\moti\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\moti\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PalestrantesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\moti\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-16 21:40:14 Error: [NotFoundException] Palestrante invalido
+#0 [internal function]: PalestrantesController->view()
+#1 C:\xampp\htdocs\moti\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(PalestrantesController), Array)
+#2 C:\xampp\htdocs\moti\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\moti\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PalestrantesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\moti\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-16 21:47:09 Error: [NotFoundException] Palestrante invalido
+#0 [internal function]: PalestrantesController->view()
+#1 C:\xampp\htdocs\moti\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(PalestrantesController), Array)
+#2 C:\xampp\htdocs\moti\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\moti\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PalestrantesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\moti\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-16 21:47:24 Error: [NotFoundException] Palestrante invalido
+#0 [internal function]: PalestrantesController->view()
+#1 C:\xampp\htdocs\moti\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(PalestrantesController), Array)
+#2 C:\xampp\htdocs\moti\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\moti\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PalestrantesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\moti\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-16 21:48:16 Error: [NotFoundException] Palestrante invalido
+#0 [internal function]: PalestrantesController->view()
+#1 C:\xampp\htdocs\moti\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(PalestrantesController), Array)
+#2 C:\xampp\htdocs\moti\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\moti\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PalestrantesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\moti\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
