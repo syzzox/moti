@@ -48,7 +48,7 @@ a {
 	font-weight: bold;
 }
 a:hover {
-	color: #22b0c0;
+	/*color: #22b0c0;*/
 	text-decoration:none;
 }
 a img {
@@ -232,8 +232,11 @@ table tr td {
 	vertical-align: top;
 	border-bottom:1px solid #ddd;
 }
+table tr:nth-child(odd) {
+	background: #f64557;
+}
 table tr:nth-child(even) {
-	background: #f9f9f9;
+	background: #f9a300;
 }
 td.actions {
 	text-align: center;

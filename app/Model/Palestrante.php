@@ -18,10 +18,13 @@
         			'rule' => 'notEmpty'
         			)
         		),
-        	'url' => array( 
-        		'url' => array(
+        	'url' => array(
+        		'pode_vazio' => array( 
+        			'allowEmpty' => true,
+        			'required' => false ),
+        		'eh_url' => array( 
         			'rule' => 'url'
         			)
         		)
-	       );
+ 		);
 	}

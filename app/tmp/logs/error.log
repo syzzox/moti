@@ -237,3 +237,363 @@
 #3 C:\xampp\htdocs\moti\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PalestrantesController), Object(CakeRequest), Object(CakeResponse))
 #4 C:\xampp\htdocs\moti\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #5 {main}
+2013-01-16 22:33:46 Error: [MissingTableException] Table palestras for model Palestra was not found in datasource default.
+#0 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Model/Model.php(3192): Model->setSource('palestras')
+#1 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Model/Model.php(2643): Model->getDataSource()
+#2 /Applications/XAMPP/xamppfiles/htdocs/moti/app/Controller/PalestrasController.php(5): Model->find('all')
+#3 [internal function]: PalestrasController->index()
+#4 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(PalestrasController), Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PalestrasController), Object(CakeRequest), Object(CakeResponse))
+#7 /Applications/XAMPP/xamppfiles/htdocs/moti/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2013-01-16 23:01:35 Error: [NotFoundException] Palestrante invalido
+#0 [internal function]: PalestrantesController->view('1')
+#1 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(PalestrantesController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PalestrantesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/XAMPP/xamppfiles/htdocs/moti/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-16 23:01:59 Error: [NotFoundException] Palestrante invalido
+#0 [internal function]: PalestrantesController->view('1')
+#1 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(PalestrantesController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PalestrantesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/XAMPP/xamppfiles/htdocs/moti/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-16 23:03:30 Error: [NotFoundException] Palestrante invalido
+#0 [internal function]: PalestrantesController->view()
+#1 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(PalestrantesController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PalestrantesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/XAMPP/xamppfiles/htdocs/moti/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-16 23:07:11 Error: [NotFoundException] Palestrante invalido
+#0 [internal function]: PalestrantesController->view('id')
+#1 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(PalestrantesController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PalestrantesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/XAMPP/xamppfiles/htdocs/moti/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-16 23:07:45 Error: [NotFoundException] Palestrante invalido
+#0 [internal function]: PalestrantesController->view('id')
+#1 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(PalestrantesController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PalestrantesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/XAMPP/xamppfiles/htdocs/moti/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-16 23:09:49 Error: [RouterException] Route classes must extend CakeRoute
+#0 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Routing/Router.php(317): Router::_validateRouteClass('i')
+#1 /Applications/XAMPP/xamppfiles/htdocs/moti/app/Config/routes.php(32): Router::connect('/palestrantes/:...', Array, 'id')
+#2 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Routing/Dispatcher.php(278): include('/Applications/X...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Routing/Dispatcher.php(215): Dispatcher->_loadRoutes()
+#4 [internal function]: Dispatcher->parseParams(Object(CakeEvent))
+#5 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Event/CakeEventManager.php(246): call_user_func(Array, Object(CakeEvent))
+#6 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Routing/Dispatcher.php(141): CakeEventManager->dispatch(Object(CakeEvent))
+#7 /Applications/XAMPP/xamppfiles/htdocs/moti/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2013-01-16 23:14:41 Error: [NotFoundException] Palestrante invalido
+#0 [internal function]: PalestrantesController->view()
+#1 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(PalestrantesController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PalestrantesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/XAMPP/xamppfiles/htdocs/moti/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-16 23:15:45 Error: [MissingControllerException] Controller class Controller could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/moti/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-01-16 23:16:51 Error: [NotFoundException] Palestrante invalido
+#0 [internal function]: PalestrantesController->view()
+#1 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(PalestrantesController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PalestrantesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/XAMPP/xamppfiles/htdocs/moti/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-16 23:17:59 Error: [NotFoundException] Palestrante invalido
+#0 [internal function]: PalestrantesController->view()
+#1 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(PalestrantesController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PalestrantesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/XAMPP/xamppfiles/htdocs/moti/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-16 23:20:17 Error: [MissingActionException] Action PalestrantesController::5() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PalestrantesController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/moti/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-01-16 23:20:59 Error: [MissingActionException] Action PalestrantesController::5() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PalestrantesController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/moti/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-01-16 23:21:03 Error: [MissingActionException] Action PalestrantesController::5() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PalestrantesController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/moti/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-01-16 23:21:07 Error: [MissingActionException] Action PalestrantesController::5() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PalestrantesController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/moti/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-01-16 23:21:16 Error: [MissingActionException] Action PalestrantesController::5() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PalestrantesController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/moti/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-01-16 23:21:33 Error: [MissingActionException] Action PalestrasController::view() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PalestrasController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/moti/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-01-16 23:21:45 Error: [MissingActionException] Action PalestrantesController::5() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PalestrantesController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/moti/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-01-16 23:21:49 Error: [MissingActionException] Action PalestrantesController::6() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PalestrantesController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/moti/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-01-16 23:22:11 Error: [MissingControllerException] Controller class Controller could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/moti/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-01-16 23:22:26 Error: [MissingControllerException] Controller class Controller could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/moti/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-01-16 23:22:53 Error: [MissingControllerException] Controller class Controller could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/moti/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-01-16 23:23:03 Error: [MissingControllerException] Controller class Controller could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/moti/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-01-16 23:23:29 Error: [MissingActionException] Action PalestrantesController::5() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PalestrantesController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/moti/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-01-16 23:23:53 Error: [NotFoundException] Palestrante invalido
+#0 [internal function]: PalestrantesController->view()
+#1 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(PalestrantesController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PalestrantesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/XAMPP/xamppfiles/htdocs/moti/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-16 23:24:40 Error: [NotFoundException] Palestrante invalido
+#0 [internal function]: PalestrantesController->view('w')
+#1 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(PalestrantesController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PalestrantesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/XAMPP/xamppfiles/htdocs/moti/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-16 23:24:50 Error: [MissingControllerException] Controller class SobreController could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/moti/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-01-16 23:25:16 Error: [MissingViewException] View file "/Applications/XAMPP/xamppfiles/htdocs/moti/app/View/Pages/ondesdf.ctp" is missing.
+#0 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/View/View.php(473): View->_getViewFileName('ondesdf')
+#1 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Controller/Controller.php(956): View->render('ondesdf', NULL)
+#2 /Applications/XAMPP/xamppfiles/htdocs/moti/app/Controller/PagesController.php(73): Controller->render('ondesdf')
+#3 [internal function]: PagesController->display('ondesdf')
+#4 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 /Applications/XAMPP/xamppfiles/htdocs/moti/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2013-01-16 23:25:24 Error: [MissingControllerException] Controller class Controller could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/moti/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-01-16 23:25:28 Error: [MissingControllerException] Controller class Controller could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/moti/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-01-16 23:28:12 Error: [MissingControllerException] Controller class Controller could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/moti/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-01-16 23:28:34 Error: [MissingControllerException] Controller class Controller could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/moti/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-01-16 23:28:43 Error: [MissingActionException] Action PalestrasController::5() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PalestrasController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/moti/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-01-16 23:28:55 Error: [MissingActionException] Action PalestrasController::5() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PalestrasController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/moti/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-01-16 23:28:58 Error: [MissingActionException] Action PalestrasController::5() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PalestrasController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/moti/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-01-16 23:28:59 Error: [MissingActionException] Action PalestrasController::5() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PalestrasController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/moti/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-01-16 23:29:10 Error: [MissingControllerException] Controller class Controller could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/moti/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-01-16 23:29:13 Error: [MissingControllerException] Controller class Controller could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/moti/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-01-16 23:29:15 Error: [MissingControllerException] Controller class Controller could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/moti/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-01-16 23:29:56 Error: [NotFoundException] Palestrante invalido
+#0 [internal function]: PalestrantesController->view()
+#1 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(PalestrantesController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PalestrantesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/XAMPP/xamppfiles/htdocs/moti/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-16 23:30:05 Error: [NotFoundException] Palestrante invalido
+#0 [internal function]: PalestrantesController->view()
+#1 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(PalestrantesController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PalestrantesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/XAMPP/xamppfiles/htdocs/moti/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-16 23:30:32 Error: [NotFoundException] Palestrante invalido
+#0 [internal function]: PalestrantesController->view()
+#1 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(PalestrantesController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PalestrantesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/XAMPP/xamppfiles/htdocs/moti/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-16 23:31:34 Error: [RouterException] Route classes must extend CakeRoute
+#0 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Routing/Router.php(317): Router::_validateRouteClass('5')
+#1 /Applications/XAMPP/xamppfiles/htdocs/moti/app/Config/routes.php(33): Router::connect('/palestrantes/5', Array, '5')
+#2 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Routing/Dispatcher.php(278): include('/Applications/X...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Routing/Dispatcher.php(215): Dispatcher->_loadRoutes()
+#4 [internal function]: Dispatcher->parseParams(Object(CakeEvent))
+#5 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Event/CakeEventManager.php(246): call_user_func(Array, Object(CakeEvent))
+#6 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Routing/Dispatcher.php(141): CakeEventManager->dispatch(Object(CakeEvent))
+#7 /Applications/XAMPP/xamppfiles/htdocs/moti/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2013-01-16 23:31:36 Error: [RouterException] Route classes must extend CakeRoute
+#0 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Routing/Router.php(317): Router::_validateRouteClass('5')
+#1 /Applications/XAMPP/xamppfiles/htdocs/moti/app/Config/routes.php(33): Router::connect('/palestrantes/5', Array, '5')
+#2 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Routing/Dispatcher.php(278): include('/Applications/X...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Routing/Dispatcher.php(215): Dispatcher->_loadRoutes()
+#4 [internal function]: Dispatcher->parseParams(Object(CakeEvent))
+#5 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Event/CakeEventManager.php(246): call_user_func(Array, Object(CakeEvent))
+#6 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Routing/Dispatcher.php(141): CakeEventManager->dispatch(Object(CakeEvent))
+#7 /Applications/XAMPP/xamppfiles/htdocs/moti/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2013-01-16 23:31:37 Error: [RouterException] Route classes must extend CakeRoute
+#0 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Routing/Router.php(317): Router::_validateRouteClass('5')
+#1 /Applications/XAMPP/xamppfiles/htdocs/moti/app/Config/routes.php(33): Router::connect('/palestrantes/5', Array, '5')
+#2 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Routing/Dispatcher.php(278): include('/Applications/X...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Routing/Dispatcher.php(215): Dispatcher->_loadRoutes()
+#4 [internal function]: Dispatcher->parseParams(Object(CakeEvent))
+#5 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Event/CakeEventManager.php(246): call_user_func(Array, Object(CakeEvent))
+#6 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Routing/Dispatcher.php(141): CakeEventManager->dispatch(Object(CakeEvent))
+#7 /Applications/XAMPP/xamppfiles/htdocs/moti/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2013-01-16 23:31:44 Error: [RouterException] Route classes must extend CakeRoute
+#0 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Routing/Router.php(317): Router::_validateRouteClass('5')
+#1 /Applications/XAMPP/xamppfiles/htdocs/moti/app/Config/routes.php(33): Router::connect('/palestrantes/5', Array, '5')
+#2 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Routing/Dispatcher.php(278): include('/Applications/X...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Routing/Dispatcher.php(215): Dispatcher->_loadRoutes()
+#4 [internal function]: Dispatcher->parseParams(Object(CakeEvent))
+#5 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Event/CakeEventManager.php(246): call_user_func(Array, Object(CakeEvent))
+#6 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Routing/Dispatcher.php(141): CakeEventManager->dispatch(Object(CakeEvent))
+#7 /Applications/XAMPP/xamppfiles/htdocs/moti/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2013-01-16 23:31:46 Error: [RouterException] Route classes must extend CakeRoute
+#0 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Routing/Router.php(317): Router::_validateRouteClass('5')
+#1 /Applications/XAMPP/xamppfiles/htdocs/moti/app/Config/routes.php(33): Router::connect('/palestrantes/5', Array, '5')
+#2 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Routing/Dispatcher.php(278): include('/Applications/X...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Routing/Dispatcher.php(215): Dispatcher->_loadRoutes()
+#4 [internal function]: Dispatcher->parseParams(Object(CakeEvent))
+#5 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Event/CakeEventManager.php(246): call_user_func(Array, Object(CakeEvent))
+#6 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Routing/Dispatcher.php(141): CakeEventManager->dispatch(Object(CakeEvent))
+#7 /Applications/XAMPP/xamppfiles/htdocs/moti/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2013-01-16 23:34:42 Error: [MissingActionException] Action PalestrantesController::6() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PalestrantesController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/moti/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-01-16 23:35:36 Error: [NotFoundException] Palestrante invalido
+#0 [internal function]: PalestrantesController->view(Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(PalestrantesController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PalestrantesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/XAMPP/xamppfiles/htdocs/moti/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-16 23:36:01 Error: [NotFoundException] Palestrante invalido
+#0 [internal function]: PalestrantesController->view(Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(PalestrantesController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PalestrantesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/XAMPP/xamppfiles/htdocs/moti/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-16 23:45:12 Error: [NotFoundException] Palestrante invalido
+#0 [internal function]: PalestrantesController->view()
+#1 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(PalestrantesController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PalestrantesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/XAMPP/xamppfiles/htdocs/moti/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-16 23:45:25 Error: [NotFoundException] Palestrante invalido
+#0 [internal function]: PalestrantesController->view()
+#1 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(PalestrantesController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PalestrantesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/XAMPP/xamppfiles/htdocs/moti/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-16 23:51:37 Error: Fatal Error (4): syntax error, unexpected T_ECHO, expecting ')' in [/Applications/XAMPP/xamppfiles/htdocs/moti/app/View/Palestras/index.ctp, line 15]
+2013-01-16 23:51:37 Error: [FatalErrorException] syntax error, unexpected T_ECHO, expecting ')'
+#0 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 15)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 15, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 15, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-01-16 23:51:39 Error: Fatal Error (4): syntax error, unexpected T_ECHO, expecting ')' in [/Applications/XAMPP/xamppfiles/htdocs/moti/app/View/Palestras/index.ctp, line 15]
+2013-01-16 23:51:39 Error: [FatalErrorException] syntax error, unexpected T_ECHO, expecting ')'
+#0 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 15)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 15, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 15, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-01-16 23:55:21 Error: [MissingHelperException] Helper class InflectorHelper could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/View/HelperCollection.php(62): HelperCollection->load('Inflector')
+#1 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/View/View.php(815): HelperCollection->__isset('Inflector')
+#2 /Applications/XAMPP/xamppfiles/htdocs/moti/app/View/Palestras/index.ctp(15): View->__get('Inflector')
+#3 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/View/View.php(923): include('/Applications/X...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/View/View.php(886): View->_evaluate('/Applications/X...', Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/View/View.php(476): View->_render('/Applications/X...')
+#6 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Controller/Controller.php(956): View->render(NULL, NULL)
+#7 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#8 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PalestrasController), Object(CakeRequest), Object(CakeResponse))
+#9 /Applications/XAMPP/xamppfiles/htdocs/moti/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-01-16 23:58:17 Error: Fatal Error (4): syntax error, unexpected ')', expecting ',' or ';' in [/Applications/XAMPP/xamppfiles/htdocs/moti/app/View/Palestras/index.ctp, line 17]
+2013-01-16 23:58:17 Error: [FatalErrorException] syntax error, unexpected ')', expecting ',' or ';'
+#0 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 17)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 17, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 17, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-01-16 23:58:48 Error: [MissingControllerException] Controller class AndressaController could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/moti/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-01-16 23:59:39 Error: Fatal Error (1): Cannot unset string offsets in [/Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/View/Helper/HtmlHelper.php, line 355]
+2013-01-16 23:59:39 Error: [FatalErrorException] Cannot unset string offsets
+#0 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Cannot unset st...', '/Applications/X...', 355)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot unset st...', '/Applications/X...', 355, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Cannot unset st...', '/Applications/X...', 355, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-01-17 00:20:45 Error: [MissingActionException] Action PalestrantesController::william() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PalestrantesController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/moti/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}

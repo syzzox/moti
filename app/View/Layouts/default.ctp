@@ -64,8 +64,10 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
 			<?php echo $this->Session->flash(); ?>
 		</div>
 
+		<div class="grid_12">
 		<?php echo $this->fetch('content'); ?>
-		
+		</div>
+
 		</div>
 
 
