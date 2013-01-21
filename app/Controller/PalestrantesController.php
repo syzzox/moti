@@ -1,6 +1,9 @@
 <?php
 
 class PalestrantesController extends AppController {
+
+    public $scaffold;
+    
     public function index() {
         $palestrantes = $this->Palestrante->find('all');
         $this->set('palestrantes', $palestrantes);

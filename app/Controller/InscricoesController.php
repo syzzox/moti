@@ -1,10 +1,15 @@
 <?php
 
 class InscricoesController extends AppController {
+
+    public $scaffold;
+
+    /*
     public function index() {
         $Inscricoes = $this->Inscricao->find('all');
         $this->set('inscricoes', $inscricoes);
     }
+    */
 
     public function inscrever() {
     	if ($this->request->isPost()) {
