@@ -310,9 +310,11 @@ dl {
 	margin: 0em 0em;
 	width: 60%;
 }
+
+
 dl dd:nth-child(4n+2),
 dl dt:nth-child(4n+1) {
-	background: #f4f4f4;
+	background: #f64557;
 }
 
 dt {
