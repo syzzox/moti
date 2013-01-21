@@ -517,15 +517,15 @@ p.error,
 .error-message {
 	clear: both;
 	color: #fff;
-	background: #c43c35;
+	background: #f64557;
 	border: 1px solid rgba(0, 0, 0, 0.5);
 	background-repeat: repeat-x;
-	background-image: -moz-linear-gradient(top, #ee5f5b, #c43c35);
-	background-image: -ms-linear-gradient(top, #ee5f5b, #c43c35);
-	background-image: -webkit-gradient(linear, left top, left bottom, from(#ee5f5b), to(#c43c35));
-	background-image: -webkit-linear-gradient(top, #ee5f5b, #c43c35);
-	background-image: -o-linear-gradient(top, #ee5f5b, #c43c35);
-	background-image: linear-gradient(top, #ee5f5b, #c43c35);
+	background-image: -moz-linear-gradient(top, #ee5f5b, #f64557);
+	background-image: -ms-linear-gradient(top, #ee5f5b, #f64557);
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#ee5f5b), to(#f64557));
+	background-image: -webkit-linear-gradient(top, #ee5f5b, #f64557);
+	background-image: -o-linear-gradient(top, #ee5f5b, #f64557);
+	background-image: linear-gradient(top, #ee5f5b, #f64557);
 	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
 }
 .success {

@@ -38,6 +38,8 @@
 	Router::connect('/inscricao', array('controller' => 'inscricoes', 'action' => 'inscrever'));
 	Router::connect('/obrigado', array('controller' => 'pages', 'action' => 'display', 'obrigado'));
 
+	Router::connect('/painel', array('controller' => 'pages', 'action' => 'display', 'login'));
+
 /**
  * Load all plugin routes.  See the CakePlugin documentation on
  * how to customize the loading of plugin routes.

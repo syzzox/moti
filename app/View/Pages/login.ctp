@@ -1,0 +1,1 @@
+<h1>Obrigado pela inscrição!</h1>

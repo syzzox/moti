@@ -2,8 +2,8 @@
 
 class PalestrantesController extends AppController {
 
-    public $scaffold;
-    
+    public $scaffold = 'painel';
+
     public function index() {
         $palestrantes = $this->Palestrante->find('all');
         $this->set('palestrantes', $palestrantes);
