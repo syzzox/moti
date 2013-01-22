@@ -176,6 +176,11 @@ padding:14px;
 	font-size: 100%;
 }
 
+/** form login **/
+.login {
+	padding-top: 20px;
+}
+
 /** containers **/
 div.form,
 div.index,

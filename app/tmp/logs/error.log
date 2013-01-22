@@ -612,3 +612,327 @@
 #4 C:\xampp\htdocs\moti\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(InscricoesController), Object(CakeRequest), Object(CakeResponse))
 #5 C:\xampp\htdocs\moti\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #6 {main}
+2013-01-21 23:29:26 Error: [MissingActionException] Action Inscricoes::index() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Controller/Scaffold.php(151): Scaffold->_scaffold(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Controller/Controller.php(530): Scaffold->__construct(Object(InscricoesController), Object(CakeRequest))
+#2 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Controller/Controller.php(489): Controller->_getScaffold(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(InscricoesController), Object(CakeRequest), Object(CakeResponse))
+#5 /Applications/XAMPP/xamppfiles/htdocs/moti/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2013-01-22 00:04:13 Error: Fatal Error (1): Call to a member function login() on a non-object in [/Applications/XAMPP/xamppfiles/htdocs/moti/app/Controller/UsuariosController.php, line 8]
+2013-01-22 00:04:13 Error: [FatalErrorException] Call to a member function login() on a non-object
+#0 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/X...', 8)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/X...', 8, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/X...', 8, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-01-22 00:06:05 Error: Fatal Error (1): Call to a member function login() on a non-object in [/Applications/XAMPP/xamppfiles/htdocs/moti/app/Controller/UsuariosController.php, line 8]
+2013-01-22 00:06:06 Error: [FatalErrorException] Call to a member function login() on a non-object
+#0 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/X...', 8)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/X...', 8, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/X...', 8, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-01-22 00:12:21 Error: [MissingTableException] Table usuarios for model Usuario was not found in datasource default.
+#0 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Model/Model.php(3192): Model->setSource('usuarios')
+#1 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Model/Model.php(1305): Model->getDataSource()
+#2 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Controller/Scaffold.php(136): Model->schema()
+#3 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Controller/Controller.php(530): Scaffold->__construct(Object(UsuariosController), Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Controller/Controller.php(489): Controller->_getScaffold(Object(CakeRequest))
+#5 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsuariosController), Object(CakeRequest), Object(CakeResponse))
+#7 /Applications/XAMPP/xamppfiles/htdocs/moti/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2013-01-22 00:13:09 Error: Fatal Error (1): Call to a member function login() on a non-object in [/Applications/XAMPP/xamppfiles/htdocs/moti/app/Controller/UsuariosController.php, line 8]
+2013-01-22 00:13:09 Error: [FatalErrorException] Call to a member function login() on a non-object
+#0 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/X...', 8)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/X...', 8, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/X...', 8, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-01-22 00:26:06 Error: Fatal Error (4): syntax error, unexpected T_STRING, expecting T_FUNCTION in [/Applications/XAMPP/xamppfiles/htdocs/moti/app/Controller/AppController.php, line 37]
+2013-01-22 00:26:06 Error: [FatalErrorException] syntax error, unexpected T_STRING, expecting T_FUNCTION
+#0 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 37)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 37, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 37, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-01-22 00:26:08 Error: Fatal Error (4): syntax error, unexpected T_STRING, expecting T_FUNCTION in [/Applications/XAMPP/xamppfiles/htdocs/moti/app/Controller/AppController.php, line 37]
+2013-01-22 00:26:08 Error: [FatalErrorException] syntax error, unexpected T_STRING, expecting T_FUNCTION
+#0 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 37)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 37, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 37, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-01-22 00:27:48 Error: Fatal Error (4): syntax error, unexpected T_STRING, expecting T_FUNCTION in [/Applications/XAMPP/xamppfiles/htdocs/moti/app/Controller/AppController.php, line 37]
+2013-01-22 00:27:48 Error: [FatalErrorException] syntax error, unexpected T_STRING, expecting T_FUNCTION
+#0 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 37)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 37, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 37, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-01-22 00:28:27 Error: Fatal Error (4): syntax error, unexpected T_STRING, expecting T_FUNCTION in [/Applications/XAMPP/xamppfiles/htdocs/moti/app/Controller/AppController.php, line 37]
+2013-01-22 00:28:27 Error: [FatalErrorException] syntax error, unexpected T_STRING, expecting T_FUNCTION
+#0 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 37)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 37, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 37, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-01-22 00:29:08 Error: Fatal Error (4): syntax error, unexpected T_STRING, expecting T_FUNCTION in [/Applications/XAMPP/xamppfiles/htdocs/moti/app/Controller/AppController.php, line 37]
+2013-01-22 00:29:08 Error: [FatalErrorException] syntax error, unexpected T_STRING, expecting T_FUNCTION
+#0 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 37)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 37, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 37, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-01-22 00:29:12 Error: Fatal Error (4): syntax error, unexpected T_STRING, expecting T_FUNCTION in [/Applications/XAMPP/xamppfiles/htdocs/moti/app/Controller/AppController.php, line 37]
+2013-01-22 00:29:12 Error: [FatalErrorException] syntax error, unexpected T_STRING, expecting T_FUNCTION
+#0 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 37)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 37, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 37, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-01-22 00:29:28 Error: Fatal Error (4): syntax error, unexpected T_STRING, expecting T_FUNCTION in [/Applications/XAMPP/xamppfiles/htdocs/moti/app/Controller/AppController.php, line 37]
+2013-01-22 00:29:28 Error: [FatalErrorException] syntax error, unexpected T_STRING, expecting T_FUNCTION
+#0 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 37)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 37, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 37, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-01-22 00:29:30 Error: Fatal Error (4): syntax error, unexpected T_STRING, expecting T_FUNCTION in [/Applications/XAMPP/xamppfiles/htdocs/moti/app/Controller/AppController.php, line 37]
+2013-01-22 00:29:30 Error: [FatalErrorException] syntax error, unexpected T_STRING, expecting T_FUNCTION
+#0 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 37)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 37, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 37, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-01-22 00:30:40 Error: Fatal Error (4): syntax error, unexpected T_STRING, expecting T_FUNCTION in [/Applications/XAMPP/xamppfiles/htdocs/moti/app/Controller/AppController.php, line 37]
+2013-01-22 00:30:40 Error: [FatalErrorException] syntax error, unexpected T_STRING, expecting T_FUNCTION
+#0 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 37)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 37, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 37, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-01-22 00:30:42 Error: Fatal Error (4): syntax error, unexpected T_STRING, expecting T_FUNCTION in [/Applications/XAMPP/xamppfiles/htdocs/moti/app/Controller/AppController.php, line 37]
+2013-01-22 00:30:42 Error: [FatalErrorException] syntax error, unexpected T_STRING, expecting T_FUNCTION
+#0 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 37)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 37, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 37, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-01-22 00:32:43 Error: Fatal Error (4): syntax error, unexpected T_STRING, expecting T_FUNCTION in [/Applications/XAMPP/xamppfiles/htdocs/moti/app/Controller/AppController.php, line 37]
+2013-01-22 00:32:43 Error: [FatalErrorException] syntax error, unexpected T_STRING, expecting T_FUNCTION
+#0 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 37)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 37, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 37, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-01-22 00:40:16 Error: Fatal Error (4): syntax error, unexpected T_STRING, expecting T_FUNCTION in [/Applications/XAMPP/xamppfiles/htdocs/moti/app/Controller/AppController.php, line 37]
+2013-01-22 00:40:16 Error: [FatalErrorException] syntax error, unexpected T_STRING, expecting T_FUNCTION
+#0 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 37)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 37, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 37, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-01-22 00:41:41 Error: Fatal Error (4): syntax error, unexpected T_STRING, expecting T_FUNCTION in [/Applications/XAMPP/xamppfiles/htdocs/moti/app/Controller/AppController.php, line 37]
+2013-01-22 00:41:41 Error: [FatalErrorException] syntax error, unexpected T_STRING, expecting T_FUNCTION
+#0 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 37)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 37, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 37, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-01-22 00:42:14 Error: Fatal Error (4): syntax error, unexpected T_STRING, expecting T_FUNCTION in [/Applications/XAMPP/xamppfiles/htdocs/moti/app/Controller/AppController.php, line 37]
+2013-01-22 00:42:14 Error: [FatalErrorException] syntax error, unexpected T_STRING, expecting T_FUNCTION
+#0 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 37)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 37, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 37, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-01-22 00:42:23 Error: Fatal Error (4): syntax error, unexpected T_STRING, expecting T_FUNCTION in [/Applications/XAMPP/xamppfiles/htdocs/moti/app/Controller/AppController.php, line 37]
+2013-01-22 00:42:23 Error: [FatalErrorException] syntax error, unexpected T_STRING, expecting T_FUNCTION
+#0 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 37)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 37, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 37, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-01-22 00:42:25 Error: Fatal Error (4): syntax error, unexpected T_STRING, expecting T_FUNCTION in [/Applications/XAMPP/xamppfiles/htdocs/moti/app/Controller/AppController.php, line 37]
+2013-01-22 00:42:25 Error: [FatalErrorException] syntax error, unexpected T_STRING, expecting T_FUNCTION
+#0 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 37)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 37, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 37, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-01-22 01:10:19 Error: [MissingControllerException] Controller class LoginController could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/moti/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-01-22 01:11:31 Error: [PrivateActionException] Private Action UsuariosController::painel_login() is not directly accessible.
+#0 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsuariosController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/moti/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-01-22 01:15:53 Error: Fatal Error (4): syntax error, unexpected ';' in [/Applications/XAMPP/xamppfiles/htdocs/moti/app/View/Usuarios/painel_login.ctp, line 9]
+2013-01-22 01:15:53 Error: [FatalErrorException] syntax error, unexpected ';'
+#0 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 9)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 9, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 9, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-01-22 01:20:51 Error: Fatal Error (4): syntax error, unexpected T_VARIABLE, expecting T_FUNCTION in [/Applications/XAMPP/xamppfiles/htdocs/moti/app/Controller/UsuariosController.php, line 6]
+2013-01-22 01:20:51 Error: [FatalErrorException] syntax error, unexpected T_VARIABLE, expecting T_FUNCTION
+#0 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 6)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 6, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 6, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-01-22 01:51:16 Error: [MissingActionException] Action PagesController::cadastro() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/moti/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-01-22 01:54:51 Error: Fatal Error (4): syntax error, unexpected ';' in [/Applications/XAMPP/xamppfiles/htdocs/moti/app/View/Pages/cadastro.ctp, line 2]
+2013-01-22 01:54:51 Error: [FatalErrorException] syntax error, unexpected ';'
+#0 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 2)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 2, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 2, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-01-22 01:59:27 Error: [MissingControllerException] Controller class UsersController could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/moti/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-01-22 01:59:33 Error: [MissingControllerException] Controller class UsersController could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/moti/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-01-22 02:02:26 Error: Fatal Error (1): Class 'AuthComponent' not found in [/Applications/XAMPP/xamppfiles/htdocs/moti/app/Model/Usuario.php, line 11]
+2013-01-22 02:02:26 Error: [FatalErrorException] Class 'AuthComponent' not found
+#0 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Class 'AuthComp...', '/Applications/X...', 11)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AuthComp...', '/Applications/X...', 11, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'AuthComp...', '/Applications/X...', 11, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-01-22 02:02:46 Error: [MissingControllerException] Controller class UsersController could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/moti/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-01-22 02:03:02 Error: [MissingControllerException] Controller class UsersController could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/moti/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-01-22 02:03:04 Error: [MissingControllerException] Controller class UsersController could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/moti/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-01-22 02:03:11 Error: [MissingControllerException] Controller class UsersController could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/moti/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-01-22 02:03:12 Error: [MissingControllerException] Controller class UsersController could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/moti/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-01-22 02:03:14 Error: [MissingControllerException] Controller class UsersController could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/moti/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-01-22 02:03:16 Error: [MissingControllerException] Controller class UsersController could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/moti/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-01-22 02:03:17 Error: [MissingControllerException] Controller class UsersController could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/moti/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-01-22 02:03:18 Error: [MissingControllerException] Controller class UsersController could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/moti/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-01-22 02:03:18 Error: [MissingControllerException] Controller class UsersController could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/moti/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-01-22 02:03:21 Error: [MissingControllerException] Controller class UsersController could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/moti/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-01-22 02:03:27 Error: [MissingControllerException] Controller class UsersController could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/moti/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-01-22 02:05:24 Error: [MissingControllerException] Controller class UsersController could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/moti/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-01-22 02:05:25 Error: [MissingControllerException] Controller class UsersController could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/moti/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-01-22 02:05:25 Error: [MissingControllerException] Controller class UsersController could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/moti/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-01-22 02:07:43 Error: [MissingControllerException] Controller class UsersController could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/moti/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-01-22 02:08:11 Error: [MissingControllerException] Controller class UsersController could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/moti/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-01-22 02:09:05 Error: [MissingControllerException] Controller class UsersController could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/moti/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-01-22 02:09:38 Error: [MissingControllerException] Controller class UsersController could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/moti/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-01-22 02:13:51 Error: [MissingControllerException] Controller class UsersController could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/moti/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-01-22 02:14:00 Error: [MissingControllerException] Controller class LoginController could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/moti/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-01-22 02:14:19 Error: [MissingControllerException] Controller class LoginController could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/moti/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-01-22 02:14:24 Error: [MissingControllerException] Controller class UsersController could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/moti/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-01-22 02:14:41 Error: [MissingControllerException] Controller class UsersController could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/moti/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-01-22 02:14:57 Error: [MissingControllerException] Controller class UsersController could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/moti/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-01-22 02:15:01 Error: [MissingControllerException] Controller class UsersController could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/moti/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-01-22 02:18:26 Error: [MissingControllerException] Controller class UsersController could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/moti/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-01-22 02:18:37 Error: [MissingControllerException] Controller class UsersController could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/moti/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-01-22 02:18:48 Error: [MissingControllerException] Controller class UsersController could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/moti/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-01-22 02:20:03 Error: [MissingActionException] Action Usuarios::add() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Controller/Scaffold.php(151): Scaffold->_scaffold(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Controller/Controller.php(530): Scaffold->__construct(Object(UsuariosController), Object(CakeRequest))
+#2 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Controller/Controller.php(489): Controller->_getScaffold(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsuariosController), Object(CakeRequest), Object(CakeResponse))
+#5 /Applications/XAMPP/xamppfiles/htdocs/moti/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2013-01-22 02:20:14 Error: [MissingActionException] Action Usuarios::list() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Controller/Scaffold.php(151): Scaffold->_scaffold(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Controller/Controller.php(530): Scaffold->__construct(Object(UsuariosController), Object(CakeRequest))
+#2 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Controller/Controller.php(489): Controller->_getScaffold(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsuariosController), Object(CakeRequest), Object(CakeResponse))
+#5 /Applications/XAMPP/xamppfiles/htdocs/moti/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}

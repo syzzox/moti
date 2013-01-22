@@ -37,10 +37,22 @@ class AppController extends Controller {
 		return isset($this->params['prefix']) && 
 			$this->params['prefix'] === $prefix;
 	}
-
+	public $components = array('Session','Auth');
+	
 	public function beforeFilter() {
-		if ($this-> _isPrefix('painel'))
+
+		$this->Auth->authenticate = array('Form' => array(
+				'userModel' => 'Usuario', 
+				'fields' => array('username' => 'usuario', 'password' => 'senha')));
+
+		if ($this->_isPrefix('painel'))
 			$this->layout = 'painel';
+
+
+		$this->Auth->loginAction = array( 'controller' => 'usuarios', 'action' => 'login', 'painel' => true);
+
+		if (!$this->_isPrefix('painel')) 
+			$this->Auth->allow('*');
 
 		return parent::beforeFilter();
 	}
