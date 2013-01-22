@@ -1,1 +1,2 @@
-<h1>Obrigado pela inscrição!</h1>
+<?php $this->layout = 'painel'; ?>
+<h1>PAINEL</h1>

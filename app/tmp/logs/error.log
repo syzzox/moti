@@ -936,3 +936,158 @@
 #4 /Applications/XAMPP/xamppfiles/htdocs/moti/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsuariosController), Object(CakeRequest), Object(CakeResponse))
 #5 /Applications/XAMPP/xamppfiles/htdocs/moti/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #6 {main}
+2013-01-22 18:11:05 Error: [MissingViewException] C:\xampp\htdocs\moti\app\View\Scaffolds\list.ctp
+#0 C:\xampp\htdocs\moti\lib\Cake\View\View.php(473): ScaffoldView->_getViewFileName('list')
+#1 C:\xampp\htdocs\moti\lib\Cake\Controller\Controller.php(956): View->render('list', 'default')
+#2 C:\xampp\htdocs\moti\lib\Cake\Controller\Scaffold.php(192): Controller->render('list', 'default')
+#3 C:\xampp\htdocs\moti\lib\Cake\Controller\Scaffold.php(388): Scaffold->_scaffoldIndex(Object(CakeRequest))
+#4 C:\xampp\htdocs\moti\lib\Cake\Controller\Scaffold.php(151): Scaffold->_scaffold(Object(CakeRequest))
+#5 C:\xampp\htdocs\moti\lib\Cake\Controller\Controller.php(530): Scaffold->__construct(Object(UsuariosController), Object(CakeRequest))
+#6 C:\xampp\htdocs\moti\lib\Cake\Controller\Controller.php(489): Controller->_getScaffold(Object(CakeRequest))
+#7 C:\xampp\htdocs\moti\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#8 C:\xampp\htdocs\moti\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsuariosController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\xampp\htdocs\moti\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-01-22 18:48:50 Error: [MissingActionException] Action Usuarios::painel_list() could not be found.
+#0 C:\xampp\htdocs\moti\lib\Cake\Controller\Scaffold.php(151): Scaffold->_scaffold(Object(CakeRequest))
+#1 C:\xampp\htdocs\moti\lib\Cake\Controller\Controller.php(530): Scaffold->__construct(Object(UsuariosController), Object(CakeRequest))
+#2 C:\xampp\htdocs\moti\lib\Cake\Controller\Controller.php(489): Controller->_getScaffold(Object(CakeRequest))
+#3 C:\xampp\htdocs\moti\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#4 C:\xampp\htdocs\moti\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsuariosController), Object(CakeRequest), Object(CakeResponse))
+#5 C:\xampp\htdocs\moti\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2013-01-22 18:49:48 Error: [MissingViewException] C:\xampp\htdocs\moti\app\View\Scaffolds\list.ctp
+#0 C:\xampp\htdocs\moti\lib\Cake\View\View.php(473): ScaffoldView->_getViewFileName('list')
+#1 C:\xampp\htdocs\moti\lib\Cake\Controller\Controller.php(956): View->render('list', 'painel')
+#2 C:\xampp\htdocs\moti\lib\Cake\Controller\Scaffold.php(192): Controller->render('list', 'painel')
+#3 C:\xampp\htdocs\moti\lib\Cake\Controller\Scaffold.php(388): Scaffold->_scaffoldIndex(Object(CakeRequest))
+#4 C:\xampp\htdocs\moti\lib\Cake\Controller\Scaffold.php(151): Scaffold->_scaffold(Object(CakeRequest))
+#5 C:\xampp\htdocs\moti\lib\Cake\Controller\Controller.php(530): Scaffold->__construct(Object(UsuariosController), Object(CakeRequest))
+#6 C:\xampp\htdocs\moti\lib\Cake\Controller\Controller.php(489): Controller->_getScaffold(Object(CakeRequest))
+#7 C:\xampp\htdocs\moti\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#8 C:\xampp\htdocs\moti\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsuariosController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\xampp\htdocs\moti\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-01-22 18:58:02 Error: [NotFoundException] Invalid Usuario
+#0 C:\xampp\htdocs\moti\lib\Cake\Controller\Scaffold.php(391): Scaffold->_scaffoldView(Object(CakeRequest))
+#1 C:\xampp\htdocs\moti\lib\Cake\Controller\Scaffold.php(151): Scaffold->_scaffold(Object(CakeRequest))
+#2 C:\xampp\htdocs\moti\lib\Cake\Controller\Controller.php(530): Scaffold->__construct(Object(UsuariosController), Object(CakeRequest))
+#3 C:\xampp\htdocs\moti\lib\Cake\Controller\Controller.php(489): Controller->_getScaffold(Object(CakeRequest))
+#4 C:\xampp\htdocs\moti\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#5 C:\xampp\htdocs\moti\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsuariosController), Object(CakeRequest), Object(CakeResponse))
+#6 C:\xampp\htdocs\moti\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2013-01-22 18:58:41 Error: [NotFoundException] Invalid Usuario
+#0 C:\xampp\htdocs\moti\lib\Cake\Controller\Scaffold.php(391): Scaffold->_scaffoldView(Object(CakeRequest))
+#1 C:\xampp\htdocs\moti\lib\Cake\Controller\Scaffold.php(151): Scaffold->_scaffold(Object(CakeRequest))
+#2 C:\xampp\htdocs\moti\lib\Cake\Controller\Controller.php(530): Scaffold->__construct(Object(UsuariosController), Object(CakeRequest))
+#3 C:\xampp\htdocs\moti\lib\Cake\Controller\Controller.php(489): Controller->_getScaffold(Object(CakeRequest))
+#4 C:\xampp\htdocs\moti\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#5 C:\xampp\htdocs\moti\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsuariosController), Object(CakeRequest), Object(CakeResponse))
+#6 C:\xampp\htdocs\moti\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2013-01-22 19:06:48 Error: [MissingActionException] Action Palestras::list() could not be found.
+#0 C:\xampp\htdocs\moti\lib\Cake\Controller\Scaffold.php(151): Scaffold->_scaffold(Object(CakeRequest))
+#1 C:\xampp\htdocs\moti\lib\Cake\Controller\Controller.php(530): Scaffold->__construct(Object(PalestrasController), Object(CakeRequest))
+#2 C:\xampp\htdocs\moti\lib\Cake\Controller\Controller.php(489): Controller->_getScaffold(Object(CakeRequest))
+#3 C:\xampp\htdocs\moti\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#4 C:\xampp\htdocs\moti\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PalestrasController), Object(CakeRequest), Object(CakeResponse))
+#5 C:\xampp\htdocs\moti\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2013-01-22 19:06:56 Error: [MissingViewException] C:\xampp\htdocs\moti\app\View\Scaffolds\list.ctp
+#0 C:\xampp\htdocs\moti\lib\Cake\View\View.php(473): ScaffoldView->_getViewFileName('list')
+#1 C:\xampp\htdocs\moti\lib\Cake\Controller\Controller.php(956): View->render('list', 'painel')
+#2 C:\xampp\htdocs\moti\lib\Cake\Controller\Scaffold.php(192): Controller->render('list', 'painel')
+#3 C:\xampp\htdocs\moti\lib\Cake\Controller\Scaffold.php(388): Scaffold->_scaffoldIndex(Object(CakeRequest))
+#4 C:\xampp\htdocs\moti\lib\Cake\Controller\Scaffold.php(151): Scaffold->_scaffold(Object(CakeRequest))
+#5 C:\xampp\htdocs\moti\lib\Cake\Controller\Controller.php(530): Scaffold->__construct(Object(PalestrasController), Object(CakeRequest))
+#6 C:\xampp\htdocs\moti\lib\Cake\Controller\Controller.php(489): Controller->_getScaffold(Object(CakeRequest))
+#7 C:\xampp\htdocs\moti\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#8 C:\xampp\htdocs\moti\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PalestrasController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\xampp\htdocs\moti\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-01-22 19:15:58 Error: [MissingViewException] C:\xampp\htdocs\moti\app\View\Scaffolds\list.ctp
+#0 C:\xampp\htdocs\moti\lib\Cake\View\View.php(473): ScaffoldView->_getViewFileName('list')
+#1 C:\xampp\htdocs\moti\lib\Cake\Controller\Controller.php(956): View->render('list', 'painel')
+#2 C:\xampp\htdocs\moti\lib\Cake\Controller\Scaffold.php(192): Controller->render('list', 'painel')
+#3 C:\xampp\htdocs\moti\lib\Cake\Controller\Scaffold.php(388): Scaffold->_scaffoldIndex(Object(CakeRequest))
+#4 C:\xampp\htdocs\moti\lib\Cake\Controller\Scaffold.php(151): Scaffold->_scaffold(Object(CakeRequest))
+#5 C:\xampp\htdocs\moti\lib\Cake\Controller\Controller.php(530): Scaffold->__construct(Object(InscricoesController), Object(CakeRequest))
+#6 C:\xampp\htdocs\moti\lib\Cake\Controller\Controller.php(489): Controller->_getScaffold(Object(CakeRequest))
+#7 C:\xampp\htdocs\moti\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#8 C:\xampp\htdocs\moti\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(InscricoesController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\xampp\htdocs\moti\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-01-22 19:18:49 Error: [NotFoundException] Invalid Usuario
+#0 C:\xampp\htdocs\moti\lib\Cake\Controller\Scaffold.php(399): Scaffold->_scaffoldSave(Object(CakeRequest), 'edit')
+#1 C:\xampp\htdocs\moti\lib\Cake\Controller\Scaffold.php(151): Scaffold->_scaffold(Object(CakeRequest))
+#2 C:\xampp\htdocs\moti\lib\Cake\Controller\Controller.php(530): Scaffold->__construct(Object(UsuariosController), Object(CakeRequest))
+#3 C:\xampp\htdocs\moti\lib\Cake\Controller\Controller.php(489): Controller->_getScaffold(Object(CakeRequest))
+#4 C:\xampp\htdocs\moti\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#5 C:\xampp\htdocs\moti\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsuariosController), Object(CakeRequest), Object(CakeResponse))
+#6 C:\xampp\htdocs\moti\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2013-01-22 19:21:15 Error: [MissingActionException] Action UsuariosController::painel_add() could not be found.
+#0 C:\xampp\htdocs\moti\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\moti\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsuariosController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\moti\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-01-22 21:51:18 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'PRIMARY'
+#0 C:\xampp\htdocs\moti\lib\Cake\Model\Datasource\DboSource.php(459): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\moti\lib\Cake\Model\Datasource\DboSource.php(425): DboSource->_execute('INSERT INTO `mo...', Array)
+#2 C:\xampp\htdocs\moti\lib\Cake\Model\Datasource\DboSource.php(1007): DboSource->execute('INSERT INTO `mo...')
+#3 C:\xampp\htdocs\moti\lib\Cake\Model\Model.php(1736): DboSource->create(Object(Usuario), Array, Array)
+#4 C:\xampp\htdocs\moti\app\Controller\UsuariosController.php(32): Model->save(Array)
+#5 [internal function]: UsuariosController->painel_add()
+#6 C:\xampp\htdocs\moti\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(UsuariosController), Array)
+#7 C:\xampp\htdocs\moti\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#8 C:\xampp\htdocs\moti\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsuariosController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\xampp\htdocs\moti\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-01-22 21:51:38 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'PRIMARY'
+#0 C:\xampp\htdocs\moti\lib\Cake\Model\Datasource\DboSource.php(459): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\moti\lib\Cake\Model\Datasource\DboSource.php(425): DboSource->_execute('INSERT INTO `mo...', Array)
+#2 C:\xampp\htdocs\moti\lib\Cake\Model\Datasource\DboSource.php(1007): DboSource->execute('INSERT INTO `mo...')
+#3 C:\xampp\htdocs\moti\lib\Cake\Model\Model.php(1736): DboSource->create(Object(Usuario), Array, Array)
+#4 C:\xampp\htdocs\moti\app\Controller\UsuariosController.php(32): Model->save(Array)
+#5 [internal function]: UsuariosController->painel_add()
+#6 C:\xampp\htdocs\moti\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(UsuariosController), Array)
+#7 C:\xampp\htdocs\moti\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#8 C:\xampp\htdocs\moti\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsuariosController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\xampp\htdocs\moti\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-01-22 22:03:37 Error: [MissingActionException] Action UsuariosController::index() could not be found.
+#0 C:\xampp\htdocs\moti\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\moti\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsuariosController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\moti\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-01-22 22:04:04 Error: [MissingActionException] Action UsuariosController::painel_index() could not be found.
+#0 C:\xampp\htdocs\moti\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\moti\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsuariosController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\moti\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-01-22 22:04:11 Error: [MissingActionException] Action UsuariosController::painel_edit() could not be found.
+#0 C:\xampp\htdocs\moti\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\moti\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsuariosController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\moti\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-01-22 22:04:14 Error: [MissingActionException] Action UsuariosController::painel_edit() could not be found.
+#0 C:\xampp\htdocs\moti\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\moti\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsuariosController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\moti\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-01-22 22:04:48 Error: [MissingActionException] Action UsuariosController::painel_edit() could not be found.
+#0 C:\xampp\htdocs\moti\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\moti\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsuariosController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\moti\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-01-22 22:05:15 Error: [MissingActionException] Action UsuariosController::painel_list() could not be found.
+#0 C:\xampp\htdocs\moti\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\moti\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsuariosController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\moti\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-01-22 22:09:55 Error: [MissingActionException] Action UsuariosController::painel_index() could not be found.
+#0 C:\xampp\htdocs\moti\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\moti\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsuariosController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\moti\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}

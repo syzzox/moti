@@ -1,17 +1,16 @@
 <?php
 
 class UsuariosController extends AppController {
+	//public $scaffold = 'painel';
 
-	public $components = array('Session','Auth' => array( 
-											'authenticate' => array('Form' => array(
-													'userModel' => 'Usuario', 
-													'fields' => array(
-														'username' => 'login',
-														'password' => 'senha')
-													)) )
-	);
+    public function beforeFilter() {
+        parent::beforeFilter();
+        $this->Auth->allow(array('add'));
+    }
 
-    public $scaffold;
+    public function index() {
+    	
+    }
 
     public function painel_login() {
     	$this->layout = 'login';    	
@@ -19,6 +18,11 @@ class UsuariosController extends AppController {
 	        if ($this->Auth->login()) {
 	            $this->redirect($this->Auth->redirect());
 	        } else {
+	        	/*
+	        	echo '<pre>';
+	        	print_r ($this->Session);
+	        	echo '</pre>';
+	        	*/
 	            $this->Session->setFlash('Dados incorretos!');
 	        }
 	    }
@@ -27,5 +31,17 @@ class UsuariosController extends AppController {
     public function painel_logout() { 
     	$this->redirect($this->Auth->logout());
 	}
+
+	public function painel_add() {
+    	if ($this->request->isPost()) {
+    		$this->Usuario->create();
+            if ($this->Usuario->save($this->request->data)) {
+                $this->Session->setFlash('Usuário cadastrado com sucesso.');
+            } else {
+                $this->Session->setFlash('Não foi possível realizar o cadastro.');
+            }
+    	}
+
+    }
 
 }

@@ -58,6 +58,7 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
 		<div id="content">
 		<?php 
 			echo $this->element('menu');
+			echo $this->element('loginBar');
 		?>
 		
 		<div class="grid_12">

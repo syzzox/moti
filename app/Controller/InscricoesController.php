@@ -4,6 +4,11 @@ class InscricoesController extends AppController {
 
     public $scaffold = 'painel';
 
+    public function beforeFilter() {
+        parent::beforeFilter();
+        $this->Auth->allow(array('view', 'index'));
+    }   
+
     /*
     public function index() {
         $Inscricoes = $this->Inscricao->find('all');

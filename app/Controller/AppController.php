@@ -40,19 +40,17 @@ class AppController extends Controller {
 	public $components = array('Session','Auth');
 	
 	public function beforeFilter() {
-
-		$this->Auth->authenticate = array('Form' => array(
-				'userModel' => 'Usuario', 
-				'fields' => array('username' => 'usuario', 'password' => 'senha')));
-
 		if ($this->_isPrefix('painel'))
 			$this->layout = 'painel';
 
-
-		$this->Auth->loginAction = array( 'controller' => 'usuarios', 'action' => 'login', 'painel' => true);
-
 		if (!$this->_isPrefix('painel')) 
 			$this->Auth->allow('*');
+
+		$this->Auth->authenticate = array('Form' => array(
+				'userModel' => 'Usuario', 
+				'fields' => array('username' => 'login', 'password' => 'senha')));
+
+		$this->Auth->loginAction = array( 'controller' => 'usuarios', 'action' => 'login', 'painel' => true);
 
 		return parent::beforeFilter();
 	}
