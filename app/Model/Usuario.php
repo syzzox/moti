@@ -5,6 +5,12 @@
 		public $displayField = 'nome';
 
                 public $validate = array(
+                        'nome' => array(
+                                'required' => 'notEmpty'
+                                ),
+                        'login' => array(
+                                'required' => 'notEmpty'
+                                ),
                         'senha' => array(
                                 'min' => array(
                                         'rule' => array('minLength', 6),

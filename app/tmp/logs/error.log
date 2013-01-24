@@ -1223,3 +1223,11 @@
 #4 C:\xampp\htdocs\moti\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PalestrasController), Object(CakeRequest), Object(CakeResponse))
 #5 C:\xampp\htdocs\moti\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #6 {main}
+2013-01-24 17:22:34 Error: Fatal Error (4): syntax error, unexpected ';', expecting ')' in [C:\xampp\htdocs\moti\app\Model\Usuario.php, line 10]
+2013-01-24 17:22:34 Error: [FatalErrorException] syntax error, unexpected ';', expecting ')'
+#0 C:\xampp\htdocs\moti\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 10)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 10, Array)
+#2 C:\xampp\htdocs\moti\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 10, Array)
+#3 C:\xampp\htdocs\moti\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
