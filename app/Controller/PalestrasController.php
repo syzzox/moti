@@ -11,6 +11,7 @@ class PalestrasController extends AppController {
         $this->set(compact('palestrantes'));
     }
 
+    /*
     public function add() {
     	if ($this->request->isPost()) {
     		$this->Palestra->create();
@@ -26,4 +27,5 @@ class PalestrasController extends AppController {
         $this->set(compact('palestrantes'));
 
     }
+    */
 }

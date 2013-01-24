@@ -38,7 +38,8 @@
 	Router::connect('/inscricao', array('controller' => 'inscricoes', 'action' => 'inscrever'));
 	Router::connect('/obrigado', array('controller' => 'pages', 'action' => 'display', 'obrigado'));
 
-	Router::connect('/painel', array('controller' => 'pages', 'action' => 'display', 'login'));
+	//Router::connect('/painel', array('controller' => 'pages', 'action' => 'display', 'home_login'));
+	Router::connect('/painel', array('controller' => 'usuarios', 'action' => 'login', 'painel' => true));
 	Router::connect('/login', array('controller' => 'usuarios', 'action' => 'login', 'painel' => true));
 
 /**

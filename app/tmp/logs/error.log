@@ -1091,3 +1091,135 @@
 #1 C:\xampp\htdocs\moti\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsuariosController), Object(CakeRequest), Object(CakeResponse))
 #2 C:\xampp\htdocs\moti\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #3 {main}
+2013-01-24 14:10:33 Error: [MissingActionException] Action UsuariosController::index() could not be found.
+#0 C:\xampp\htdocs\moti\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\moti\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsuariosController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\moti\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-01-24 14:11:01 Error: [MissingActionException] Action UsuariosController::painel_index() could not be found.
+#0 C:\xampp\htdocs\moti\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\moti\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsuariosController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\moti\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-01-24 15:31:36 Error: [MissingControllerException] Controller class Painel[Controller could not be found.
+#0 C:\xampp\htdocs\moti\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-01-24 15:34:57 Error: Fatal Error (1): Call to undefined method View::redirect() in [C:\xampp\htdocs\moti\app\View\Usuarios\painel_login.ctp, line 10]
+2013-01-24 15:34:57 Error: [FatalErrorException] Call to undefined method View::redirect()
+#0 C:\xampp\htdocs\moti\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\xampp\htdocs...', 10)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\xampp\htdocs...', 10, Array)
+#2 C:\xampp\htdocs\moti\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\xampp\htdocs...', 10, Array)
+#3 C:\xampp\htdocs\moti\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-01-24 15:35:56 Error: [MissingViewException] View file "C:\xampp\htdocs\moti\app\View\Usuarios\Array.ctp" is missing.
+#0 C:\xampp\htdocs\moti\lib\Cake\View\View.php(473): View->_getViewFileName(Array)
+#1 C:\xampp\htdocs\moti\app\View\Usuarios\painel_login.ctp(10): View->render(Array)
+#2 C:\xampp\htdocs\moti\lib\Cake\View\View.php(923): include('C:\xampp\htdocs...')
+#3 C:\xampp\htdocs\moti\lib\Cake\View\View.php(886): View->_evaluate('C:\xampp\htdocs...', Array)
+#4 C:\xampp\htdocs\moti\lib\Cake\View\View.php(476): View->_render('C:\xampp\htdocs...')
+#5 C:\xampp\htdocs\moti\lib\Cake\Controller\Controller.php(956): View->render(NULL, NULL)
+#6 C:\xampp\htdocs\moti\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#7 C:\xampp\htdocs\moti\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsuariosController), Object(CakeRequest), Object(CakeResponse))
+#8 C:\xampp\htdocs\moti\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2013-01-24 15:38:53 Error: [MissingActionException] Action PagesController::painel_display() could not be found.
+#0 C:\xampp\htdocs\moti\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\moti\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\moti\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-01-24 15:39:18 Error: [MissingActionException] Action PagesController::painel_display() could not be found.
+#0 C:\xampp\htdocs\moti\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\moti\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\moti\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-01-24 15:40:08 Error: [MissingActionException] Action PagesController::home_login() could not be found.
+#0 C:\xampp\htdocs\moti\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\moti\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\moti\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-01-24 15:40:29 Error: [MissingActionException] Action PagesController::obrigado() could not be found.
+#0 C:\xampp\htdocs\moti\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\moti\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\moti\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-01-24 15:41:15 Error: [MissingActionException] Action PagesController::home_login() could not be found.
+#0 C:\xampp\htdocs\moti\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\moti\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\moti\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-01-24 15:42:04 Error: [MissingActionException] Action PagesController::painel_display() could not be found.
+#0 C:\xampp\htdocs\moti\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\moti\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\moti\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-01-24 15:42:42 Error: [MissingActionException] Action PagesController::painel_display() could not be found.
+#0 C:\xampp\htdocs\moti\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\moti\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\moti\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-01-24 15:44:31 Error: [MissingActionException] Action PagesController::home_login() could not be found.
+#0 C:\xampp\htdocs\moti\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\moti\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\moti\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-01-24 15:45:02 Error: [MissingActionException] Action PagesController::homeLogin() could not be found.
+#0 C:\xampp\htdocs\moti\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\moti\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\moti\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-01-24 16:18:52 Error: [MissingActionException] Action UsuariosController::painel_index() could not be found.
+#0 C:\xampp\htdocs\moti\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\moti\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsuariosController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\moti\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-01-24 16:20:04 Error: [MissingActionException] Action UsuariosController::logout() could not be found.
+#0 C:\xampp\htdocs\moti\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\moti\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsuariosController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\moti\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-01-24 16:49:13 Error: Fatal Error (4): syntax error, unexpected '!', expecting '(' in [C:\xampp\htdocs\moti\app\Config\routes.php, line 41]
+2013-01-24 16:49:13 Error: [FatalErrorException] syntax error, unexpected '!', expecting '('
+#0 C:\xampp\htdocs\moti\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 41)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 41, Array)
+#2 C:\xampp\htdocs\moti\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 41, Array)
+#3 C:\xampp\htdocs\moti\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-01-24 16:49:53 Error: Fatal Error (1): Call to a member function check() on a non-object in [C:\xampp\htdocs\moti\app\Config\routes.php, line 41]
+2013-01-24 16:49:53 Error: [FatalErrorException] Call to a member function check() on a non-object
+#0 C:\xampp\htdocs\moti\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 41)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 41, Array)
+#2 C:\xampp\htdocs\moti\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 41, Array)
+#3 C:\xampp\htdocs\moti\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-01-24 16:58:41 Error: [MissingActionException] Action UsuariosController::login() could not be found.
+#0 C:\xampp\htdocs\moti\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\moti\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsuariosController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\moti\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-01-24 17:01:24 Error: [MissingControllerException] Controller class PainelController could not be found.
+#0 C:\xampp\htdocs\moti\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-01-24 17:03:59 Error: [MissingActionException] Action UsuariosController::painel_index() could not be found.
+#0 C:\xampp\htdocs\moti\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\moti\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsuariosController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\moti\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-01-24 17:05:51 Error: [MissingActionException] Action Palestrantes::add() could not be found.
+#0 C:\xampp\htdocs\moti\lib\Cake\Controller\Scaffold.php(151): Scaffold->_scaffold(Object(CakeRequest))
+#1 C:\xampp\htdocs\moti\lib\Cake\Controller\Controller.php(530): Scaffold->__construct(Object(PalestrantesController), Object(CakeRequest))
+#2 C:\xampp\htdocs\moti\lib\Cake\Controller\Controller.php(489): Controller->_getScaffold(Object(CakeRequest))
+#3 C:\xampp\htdocs\moti\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#4 C:\xampp\htdocs\moti\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PalestrantesController), Object(CakeRequest), Object(CakeResponse))
+#5 C:\xampp\htdocs\moti\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2013-01-24 17:06:06 Error: [MissingActionException] Action Palestras::add() could not be found.
+#0 C:\xampp\htdocs\moti\lib\Cake\Controller\Scaffold.php(151): Scaffold->_scaffold(Object(CakeRequest))
+#1 C:\xampp\htdocs\moti\lib\Cake\Controller\Controller.php(530): Scaffold->__construct(Object(PalestrasController), Object(CakeRequest))
+#2 C:\xampp\htdocs\moti\lib\Cake\Controller\Controller.php(489): Controller->_getScaffold(Object(CakeRequest))
+#3 C:\xampp\htdocs\moti\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#4 C:\xampp\htdocs\moti\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PalestrasController), Object(CakeRequest), Object(CakeResponse))
+#5 C:\xampp\htdocs\moti\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}

@@ -17,6 +17,7 @@ class PalestrantesController extends AppController {
                 $this->set('palestrante', $this->Palestrante->read(null, $id)); 
     }   
 
+    /*
     public function add() {
     	if ($this->request->isPost()) {
     		$this->Palestrante->create();
@@ -29,4 +30,5 @@ class PalestrantesController extends AppController {
     	}
 
     }
+    */
 }

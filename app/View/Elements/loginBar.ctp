@@ -4,10 +4,10 @@
 		
 		<?php 
 		if( $this->Session->check('Auth.User.id')) {
-			echo $this->Html->link('LOGOUT', array('controller' => 'usuarios', 'action' => 'logout', 'full_base' => true));
+			echo $this->Html->link('LOGOUT', array('controller' => 'usuarios', 'action' => 'logout', 'full_base' => true, 'painel' => true));
 		}
 		else {
-			echo 'LOGGED';
+			echo $this->Html->link('LOGIN', array('controller' => 'usuarios', 'action' => 'login', 'full_base' => true, 'painel' => true));
 		}
 		?>
 	</div>

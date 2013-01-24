@@ -42,6 +42,7 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js" type="text/javascript"></script>
 
 	<?php echo $this->fetch('head'); ?>
+	
 
 </head>
 <body>
@@ -63,6 +64,7 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
 		
 		<div class="grid_12">
 			<?php echo $this->Session->flash(); ?>
+			<?php echo $this->fetch('loginAuth'); ?>
 		</div>
 
 		<div class="grid_12">

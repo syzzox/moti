@@ -1,19 +1,24 @@
 <?php
 
 class UsuariosController extends AppController {
-	//public $scaffold = 'painel';
+	public $scaffold = 'painel';
 
     public function beforeFilter() {
         parent::beforeFilter();
         $this->Auth->allow(array('add'));
     }
 
-    public function index() {
-    	
+    public function painel_profile() {
+   	
     }
 
     public function painel_login() {
-    	$this->layout = 'login';    	
+        //se estiver logado redireciona pra home_login
+        if($this->Session->check('Auth.User.id')){
+            $this->redirect(array('controller' => 'usuarios', 'action' => 'profile', 'painel' => true));
+        }
+
+    	$this->layout = 'tela_login';    	
     	if ($this->request->is('post')) {
 	        if ($this->Auth->login()) {
 	            $this->redirect($this->Auth->redirect());
